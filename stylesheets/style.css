@@ -44,6 +44,14 @@ body{
     padding: 1em;
 }
 
+.nav_bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav_bar ul li a:hover{
+    color:blue;
+}
+
 .content{
     display: flex;
     flex: 1;
