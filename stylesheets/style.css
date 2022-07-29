@@ -30,9 +30,14 @@ body{
 }
 
 .area {
+    
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
     border-radius: 4px;
+    margin: 10px;
+    width: 300px;
+    min-height: 200px;
+
 }
 
 .nav_bar ul {
@@ -42,17 +47,13 @@ body{
 
 }
 
-.nav_bar ul li{
-
-}
-
 .nav_bar ul li:hover{
     background-color: white;
 }
 
 .nav_bar ul li a{
     display: block;
-    padding:1em;
+    padding:1em 3em;
     text-decoration: none;
     color: white;
     border-bottom: 1px solid orange;
@@ -67,7 +68,11 @@ body{
     flex: 1;
 }
 .container{
-
+    display: flex;
+    padding: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 
