@@ -7,7 +7,7 @@
 body
 {
 	min-height: 100vh;
-	background: rgb(233, 233, 233);
+	background: rgb(207, 207, 207);
     overflow: hidden;
 }
 .container
@@ -70,13 +70,12 @@ body
 .hexagon:before {
     content: '';
     position: absolute;
-    clip-path: polygon(50% 49%, 100% 25%, 51% 51%, 50% 100%, 49% 51%, 0 25%);
-    top: 0;
+    clip-path: polygon(50% 49%, 100% 24%, 100% 26%, 51% 51%, 51% 100%, 49% 100%, 49% 51%, 0 26%, 0 24%);    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     pointer-events: none;
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
 
