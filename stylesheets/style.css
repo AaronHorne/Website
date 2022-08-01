@@ -41,6 +41,7 @@ body{
 }
 
 .nav_bar ul {
+    position: sticky;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -73,5 +74,3 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
