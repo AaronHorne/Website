@@ -6,6 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AaronHorne</title>
     <link rel="stylesheet" href="./stylesheets/style.css">
+    <style>
+        table,
+        td,
+        th {
+            border:1px solid black;
+        }
+        tr:nth-child(even){
+            background-color: lightgray;
+        }
+        thead th {
+            padding: 5px;
+            font-size: larger;
+            background-color: black;
+            color: white;
+        }
+        table{
+            box-shadow: 0px 0px 100px 100px rgba(0, 0, 0, .2);
+        }
+    </style>
 </head>
 <body>
     <div id="header">
@@ -24,15 +43,61 @@
         </div>
 
         <div class="container">
-            <div class="area">Goodbye</div>
-            <div class="area">Goodbye</div>
-            <div class="area">Goodbye</div>
-            <div class="area">Goodbye</div>
-            <div class="area">Goodbye</div>
-            <div class="area">Goodbye</div>
-            <div class="area">Goodbye</div>
-            <div class="area">Goodbye</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Page Upgrades</th>
+                    </tr>
+                </thead>
+                <tbody>
 
+                    <tr>
+                        <th rowspan="8" style="background-color: lightgray;">All Pages</th>
+                        <td>make navigation pane sticky</td>                        
+                    </tr>
+                    <tr><td>Collapseable Navigation</td></tr>
+                    <tr><td>Condense down to no more than 3 pages</td></tr>
+                    <tr><td>Add sprite for page icon</td></tr>
+                    <tr><td>Include a lot more JavaScript</td></tr>
+                    <tr><td>Make look prettier</td></tr>
+                    <tr><td>Add icons to Navigation section</td></tr>
+                    <tr><td>Make current page indicator on nav bar</td></tr>
+
+                    <tr>
+                        <th rowspan="2">Home Page</th>
+                        <td>update resume</td>                
+                    </tr>
+                    <tr><td>add icons for links that expand when hovering</td></tr>
+
+                    <tr>
+                        <th rowspan="3" style="background-color: lightgray;">About Page</th>
+                        <td>Make cards fade into background and scroll with JS</td>
+                    </tr>
+                    <tr><td>Include internship card that explains what I did during it</td></tr>
+                    <tr><td>Combine with achievements Page</td></tr>
+
+                    <tr>
+                        <th rowspan="2" style="background-color: white;">Achievements Page</th>
+                        <td>Include Military Medals Earned</td>
+                    </tr>
+                    <tr><td>Condense this page and About</td></tr>
+
+                    <tr>
+                        <th rowspan="2">Contacts Page</th>
+                        <td>make it run on a backend server that actually emails directly</td>
+                    </tr>
+                    <tr><td>Condense this page and roadmap</td></tr>
+
+                    <tr>
+                        <th rowspan="3" style="background-color: white;">Roadmap</th>
+                        <td>condense into same page as Contact page</td>
+                    </tr>
+                    <tr><td>Vertical Timeline with future Project completion dates</td></tr>
+                    <tr><td>countdown clock to Graduation</td></tr>
+
+                </tbody>
+            </table>
+        
             
         </div>
 
@@ -54,51 +119,3 @@
 </body>
 </html>
 <body>
-    <ol>
-        <li>ALL PAGES</li>
-        <ol>
-            <li>make navigation pane sticky</li>
-            <li>Collapseable Navigation</li>
-            <li>Condense to one page</li>
-            <li>add sprite for page icon</li>
-        </ol>
-        <li>home screen</li>
-        <ol>
-            <li>name in center</li>
-            <li>cards undername navigating to pages</li>
-            <li>LinkedIn/GitHub/other in top left/right</li>
-            <li>update resume</li>
-            <li>add icons for links that expand when hovering</li>
-
-        </ol>
-        <li>about page</li>
-        <ol>
-            <li>military experience</li>
-            <li>family life</li>
-            <li>internship</li>
-
-        </ol>
-        <li>achievement</li>
-        <ol>
-            <li>military awards</li>
-            <li>internship</li>
-            <li>link to github projects page</li>
-            <li>certificates (including codingame)</li>
-            <li>LinkedIn</li>
-        </ol>
-        <li>contact</li>
-        <ol>
-            <li>email</li>
-        </ol>
-        <li>roadmap</li>
-        <ol>
-            <li>vertical timeline with future project
-                completion dates
-            </li>
-            <li>countdown clock to graduation</li>
-
-        </ol>
-    </ol>
-    <a href="index.html">home</a>
-</body>
-</html>
