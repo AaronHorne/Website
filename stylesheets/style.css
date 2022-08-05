@@ -28,8 +28,8 @@ body{
 
 .footer {
     display: flex;
-    justify-content: right;
-    background-color: hwb(0 15% 85%);
+    justify-content: space-between;
+    background-color: #262626;
     color: white;
     font-size: 20px;
 }
@@ -46,7 +46,7 @@ body{
     align-items: center;
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
-    border-radius: 4px;
+    border-radius: 20px;
     margin: 10px;
     width: 300px;
     min-height: 375px;
@@ -78,9 +78,6 @@ body{
     color:#262626;
     background: white;
     text-shadow: 3px 3px 3px darkgray;
-
-
-
 }
 
 .content{
@@ -130,17 +127,14 @@ body{
         padding: 0 0;
         border: none;
         margin: 10px 0;
-        border:1px solid green;
+        border:1px solid white;
         border-radius: 10px;
         padding:5px;
     }
+
     .nav_bar ul li:hover{
-        background-color: red;
+        background-color:#262626;
     }
-    .nav_bar ul li a:hover{
-        background-color: white;
-        text-decoration: none;
-        color:red;
-    }
+
 
 }
