@@ -6,9 +6,9 @@ body{
     min-height:100vh;
     display:flex;
     flex-direction: column;
-    background: linear-gradient(180deg, rgba(0,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(45deg,  rgba(148, 34, 226, 0.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(120deg, rgba(38,38,38,.8), rgba(0,0,255,0) 70.71%);
+    background: linear-gradient(225deg, rgba(17, 0, 255, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient( 315deg,  rgba(148, 34, 226, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(90deg, rgba(38,38,38,1), rgba(0,0,0,0) 100%);
 }
 
 #header {
